@@ -20,7 +20,6 @@ int main(){
     scanf("%d",&num2);
 
     numbers(num1, num2);
-    // numbers; testing
 
 return 0;
 }
