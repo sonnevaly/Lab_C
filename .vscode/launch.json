@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/C Term2/Lab03",
-      "program": "c:/C Term2/Lab03/build/Debug/outDebug",
+      "cwd": "c:/Users/DELL/Documents/GitHub/Lab_C/Lab07_Structure",
+      "program": "c:/Users/DELL/Documents/GitHub/Lab_C/Lab07_Structure/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
