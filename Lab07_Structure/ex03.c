@@ -14,7 +14,7 @@ struct students students[10];
     for(int i = 0; i < 10; i++){
         printf("\nStudent%d Detials\n",i+1);
         printf("Enter surname: ");
-        scanf("%s",students[i].surname);
+        scanf("%s", students[i].surname);
 
         printf("Enter Name: ");
         scanf("%s",students[i].name);
@@ -26,8 +26,15 @@ struct students students[10];
     int youngestIndex = 0;
 
     for(int i = 1; i < 10; i++){
-        if()
+        if(students[i].age < students[youngestIndex].age){
+            youngestIndex = i;
+        }
     }
+
+    printf("\nDeatial of the youngest student\n");
+    printf("Surname: %s\n",students[youngestIndex].surname);
+    printf("Name: %s\n",students[youngestIndex].name);
+    printf("Age: %d\n",students[youngestIndex].age);
 
 
     return 0;
